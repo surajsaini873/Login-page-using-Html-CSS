@@ -1,0 +1,122 @@
+body {
+  background-image: url("https://images.pexels.com/photos/927629/pexels-photo-927629.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 {
+  /* background-color: rgb(246, 2, 2); */
+  /* border: 2px solid green; */
+  border-radius: 200px;
+  width: 769px;
+  height: 200px;
+  align-items: center;
+  margin-left: 36%;
+}
+.container1 h1 {
+  text-align: center;
+  color: white;
+  font-size: 87px;
+}
+.container {
+  /* border: 2px solid green; */
+  /* background-color: aqua; */
+  text-align: center;
+  margin-top: 20px;
+  /* border-radius: 200px; */
+  width: 769px;
+  height: 200px;
+  align-items: center;
+  margin-left: 36%;
+}
+.container h2 {
+  color: white;
+  font-size: 50px;
+}
+.pass {
+  padding: 20px;
+  font-size: 42px;
+  color: white;
+}
+.login {
+  padding: 20px;
+  color: white;
+  font-size: 42px;
+}
+.btn {
+  padding: 20px;
+  color: white;
+}
+.btn input {
+  color: white;
+  background-color: green;
+  font-size: larger;
+}
+.container2 {
+  text-align: center;
+  margin-top: 5%;
+  border-radius: 200px;
+  width: 769px;
+  align-items: center;
+  margin-left: 36%;
+}
+.btn1 {
+  border: none;
+
+  height: 40px;
+  width: 180px;
+  font-size: 25px;
+  border-radius: 11px;
+  color: white;
+  background: green;
+}
+.btn2 {
+  border: none;
+  height: 40px;
+  width: 180px;
+  font-size: 25px;
+  border-radius: 11px;
+  color: white;
+  background: green;
+  margin: 30px;
+}
+.btn3 {
+  border: none;
+
+  height: 40px;
+  width: 180px;
+  border-radius: 11px;
+  font-size: 25px;
+  color: white;
+  background: red;
+}
+.login input placeholder {
+  height: 42px;
+  border-radius: 11px;
+  width: 400px;
+}
+.container pass input placeholder {
+  width: 350px;
+  height: 47px;
+  font-size: 25px;
+  border-radius: 11px;
+}
+input {
+  border: 2px solid #ccc;
+  height: 34px;
+  border-radius: 11px;
+  width: 250px;
+  font-size: 25px;
+  background: transparent;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  0% {
+    opacity: 0;
+    color: red;
+    
+  }
+}
